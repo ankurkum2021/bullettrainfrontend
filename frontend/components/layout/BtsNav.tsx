@@ -12,16 +12,7 @@ const LINKS: {
   label: string;
   icon: IconName;
   match: (p: string) => boolean;
-}[] = [
-  { href: "/#development", label: "Explore", icon: "compass", match: (p) => p === "/" },
-  { href: "/stations", label: "Stations", icon: "stations", match: (p) => p === "/stations" },
-  {
-    href: "/opening-date",
-    label: "Opening",
-    icon: "calendar",
-    match: (p) => p === "/opening-date",
-  },
-];
+}[] = [{ href: "/#development", label: "Explore", icon: "compass", match: (p) => p === "/" }];
 
 type Props = { scrollProgress: number };
 
