@@ -1,0 +1,22 @@
+{
+  "_deprecated": "Use data/corridors-catalog.json — kept for backward-compatible import.",
+  "corridor": {
+    "slug": "mahsr",
+    "name": "Mumbai–Ahmedabad High Speed Rail (MAHSR)",
+    "lengthKm": 508
+  },
+  "stations": [
+    { "slug": "mumbai-bkc", "name": "Mumbai BKC", "stateCode": "MH", "order": 1, "live": false },
+    { "slug": "thane", "name": "Thane", "stateCode": "MH", "order": 2, "live": false },
+    { "slug": "virar", "name": "Virar", "stateCode": "MH", "order": 3, "live": false },
+    { "slug": "boisar", "name": "Boisar", "stateCode": "MH", "order": 4, "live": false },
+    { "slug": "vapi", "name": "Vapi", "stateCode": "GJ", "order": 5, "live": false },
+    { "slug": "bilimora", "name": "Bilimora", "stateCode": "GJ", "order": 6, "live": true },
+    { "slug": "surat", "name": "Surat", "stateCode": "GJ", "order": 7, "live": true },
+    { "slug": "bharuch", "name": "Bharuch", "stateCode": "GJ", "order": 8, "live": false },
+    { "slug": "vadodara", "name": "Vadodara", "stateCode": "GJ", "order": 9, "live": false },
+    { "slug": "anand-nadiad", "name": "Anand / Nadiad", "stateCode": "GJ", "order": 10, "live": false },
+    { "slug": "ahmedabad", "name": "Ahmedabad", "stateCode": "GJ", "order": 11, "live": false },
+    { "slug": "sabarmati", "name": "Sabarmati", "stateCode": "GJ", "order": 12, "live": false }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "corridors": [
+    {
+      "slug": "mahsr",
+      "name": "Mumbai–Ahmedabad High Speed Rail (MAHSR)",
+      "shortName": "MAHSR",
+      "lengthKm": 508,
+      "phase": "under_construction",
+      "status": "Under construction — first Gujarat stretch targeted from 2027",
+      "stations": [
+        { "slug": "mumbai-bkc", "name": "Mumbai BKC", "stateCode": "MH", "order": 1, "live": false },
+        { "slug": "thane", "name": "Thane", "stateCode": "MH", "order": 2, "live": false },
+        { "slug": "virar", "name": "Virar", "stateCode": "MH", "order": 3, "live": false },
+        { "slug": "boisar", "name": "Boisar", "stateCode": "MH", "order": 4, "live": false },
+        { "slug": "vapi", "name": "Vapi", "stateCode": "GJ", "order": 5, "live": false },
+        { "slug": "bilimora", "name": "Bilimora", "stateCode": "GJ", "order": 6, "live": true },
+        { "slug": "surat", "name": "Surat", "stateCode": "GJ", "order": 7, "live": true },
+        { "slug": "bharuch", "name": "Bharuch", "stateCode": "GJ", "order": 8, "live": false },
+        { "slug": "vadodara", "name": "Vadodara", "stateCode": "GJ", "order": 9, "live": false },
+        { "slug": "anand-nadiad", "name": "Anand / Nadiad", "stateCode": "GJ", "order": 10, "live": false },
+        { "slug": "ahmedabad", "name": "Ahmedabad", "stateCode": "GJ", "order": 11, "live": false },
+        { "slug": "sabarmati", "name": "Sabarmati", "stateCode": "GJ", "order": 12, "live": false }
+      ]
+    },
+    {
+      "slug": "mumbai-hyderabad",
+      "name": "Mumbai–Hyderabad High Speed Rail",
+      "shortName": "Mumbai–Hyderabad",
+      "lengthKm": null,
+      "phase": "approved",
+      "status": "Approved corridor — station list and dates not final",
+      "stations": [
+        { "slug": "mumbai", "name": "Mumbai", "stateCode": "MH", "order": 1, "live": false },
+        { "slug": "pune", "name": "Pune", "stateCode": "MH", "order": 2, "live": false },
+        { "slug": "solapur", "name": "Solapur", "stateCode": "MH", "order": 3, "live": false },
+        { "slug": "hyderabad", "name": "Hyderabad", "stateCode": "TS", "order": 4, "live": false }
+      ]
+    },
+    {
+      "slug": "delhi-varanasi",
+      "name": "Delhi–Varanasi High Speed Rail",
+      "shortName": "Delhi–Varanasi",
+      "lengthKm": 865,
+      "phase": "approved",
+      "status": "Approved corridor — alignments and stop list subject to final DPR",
+      "stations": [
+        { "slug": "delhi", "name": "Delhi", "stateCode": "DL", "order": 1, "live": false },
+        { "slug": "agra", "name": "Agra", "stateCode": "UP", "order": 2, "live": false },
+        { "slug": "lucknow", "name": "Lucknow", "stateCode": "UP", "order": 3, "live": false },
+        { "slug": "varanasi", "name": "Varanasi", "stateCode": "UP", "order": 4, "live": false }
+      ]
+    },
+    {
+      "slug": "delhi-amritsar",
+      "name": "Delhi–Amritsar High Speed Rail",
+      "shortName": "Delhi–Amritsar",
+      "lengthKm": 459,
+      "phase": "approved",
+      "status": "Approved corridor — indicative stops; not commissioned",
+      "stations": [
+        { "slug": "delhi-amritsar-hub", "name": "Delhi (proposed HSR hub)", "stateCode": "DL", "order": 1, "live": false },
+        { "slug": "panipat", "name": "Panipat", "stateCode": "HR", "order": 2, "live": false },
+        { "slug": "chandigarh", "name": "Chandigarh", "stateCode": "CH", "order": 3, "live": false },
+        { "slug": "ludhiana", "name": "Ludhiana", "stateCode": "PB", "order": 4, "live": false },
+        { "slug": "amritsar", "name": "Amritsar", "stateCode": "PB", "order": 5, "live": false }
+      ]
+    },
+    {
+      "slug": "delhi-ahmedabad",
+      "name": "Delhi–Ahmedabad High Speed Rail",
+      "shortName": "Delhi–Ahmedabad",
+      "lengthKm": 886,
+      "phase": "approved",
+      "status": "Approved corridor — separate programme from MAHSR; DPR stage",
+      "stations": [
+        { "slug": "delhi-ahmedabad-hub", "name": "Delhi (proposed HSR hub)", "stateCode": "DL", "order": 1, "live": false },
+        { "slug": "jaipur", "name": "Jaipur", "stateCode": "RJ", "order": 2, "live": false },
+        { "slug": "ajmer", "name": "Ajmer", "stateCode": "RJ", "order": 3, "live": false },
+        { "slug": "udaipur-hsr", "name": "Udaipur", "stateCode": "RJ", "order": 4, "live": false },
+        { "slug": "ahmedabad-delhi-hsr", "name": "Ahmedabad", "stateCode": "GJ", "order": 5, "live": false }
+      ]
+    },
+    {
+      "slug": "chennai-mysuru",
+      "name": "Chennai–Mysuru High Speed Rail",
+      "shortName": "Chennai–Mysuru",
+      "lengthKm": 435,
+      "phase": "approved",
+      "status": "Approved corridor — often cited as Chennai–Bengaluru–Mysuru; stops indicative",
+      "stations": [
+        { "slug": "chennai", "name": "Chennai", "stateCode": "TN", "order": 1, "live": false },
+        { "slug": "bengaluru", "name": "Bengaluru", "stateCode": "KA", "order": 2, "live": false },
+        { "slug": "mysuru", "name": "Mysuru", "stateCode": "KA", "order": 3, "live": false }
+      ]
+    },
+    {
+      "slug": "mumbai-nagpur",
+      "name": "Mumbai–Nagpur High Speed Rail",
+      "shortName": "Mumbai–Nagpur",
+      "lengthKm": null,
+      "phase": "proposed",
+      "status": "Proposed / pre-DPR — route and stations not announced",
+      "stations": [
+        { "slug": "mumbai-nagpur-hub", "name": "Mumbai (proposed)", "stateCode": "MH", "order": 1, "live": false },
+        { "slug": "nashik", "name": "Nashik", "stateCode": "MH", "order": 2, "live": false },
+        { "slug": "aurangabad", "name": "Aurangabad", "stateCode": "MH", "order": 3, "live": false },
+        { "slug": "nagpur", "name": "Nagpur", "stateCode": "MH", "order": 4, "live": false }
+      ]
+    },
+    {
+      "slug": "kolkata-patna",
+      "name": "Kolkata–Patna High Speed Rail",
+      "shortName": "Kolkata–Patna",
+      "lengthKm": null,
+      "phase": "proposed",
+      "status": "Proposed Eastern corridor — indicative geography only",
+      "stations": [
+        { "slug": "kolkata", "name": "Kolkata", "stateCode": "WB", "order": 1, "live": false },
+        { "slug": "dhanbad", "name": "Dhanbad", "stateCode": "JH", "order": 2, "live": false },
+        { "slug": "patna", "name": "Patna", "stateCode": "BR", "order": 3, "live": false }
+      ]
+    }
+  ]
+}

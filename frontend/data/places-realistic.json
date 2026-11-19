@@ -1,0 +1,1428 @@
+{
+  "meta": {
+    "description": "Representative points of interest per MAHSR stop — real names of landmarks, zones, and businesses; road distances are approximate from the proposed HSR footprint.",
+    "entityKinds": [
+      "transport",
+      "lodging",
+      "food_and_drink",
+      "industry",
+      "commerce",
+      "landmark",
+      "aviation"
+    ]
+  },
+  "stations": {
+    "surat": {
+      "lead": "Diamond belt, airport runs, and business travel around Surat.",
+      "sections": [
+        {
+          "slug": "diamond",
+          "label": "Diamond & gems",
+          "icon": "pin",
+          "panelTitle": "Diamond belt & gem trade near Surat HSR",
+          "places": [
+            {
+              "slug": "surat-d1",
+              "name": "Surat Diamond Bourse (DREAM City)",
+              "kind": "commerce",
+              "note": "Rough & polished trade visits; GST cab days",
+              "distanceKm": 14.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-d2",
+              "name": "Varachha Road polishing cluster",
+              "kind": "commerce",
+              "note": "Factory tours — Varachha, Mini Bazaar belt",
+              "distanceKm": 9.1,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-d3",
+              "name": "Mahidharpura wholesale market",
+              "kind": "commerce",
+              "note": "Multi-stop buyer runs with wait time",
+              "distanceKm": 8.4,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-d4",
+              "name": "Hira Bourse & Katargam units",
+              "kind": "commerce",
+              "note": "B2B same-day industrial visits",
+              "distanceKm": 7.6,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "surat-t1",
+              "name": "Surat International Airport (STV)",
+              "kind": "transport",
+              "note": "Terminal pickup — Magdalla",
+              "distanceKm": 11.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-t2",
+              "name": "Hazira port & LNG belt",
+              "kind": "transport",
+              "note": "Corporate plant visit circuit",
+              "distanceKm": 28.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-t3",
+              "name": "Sachin GIDC",
+              "kind": "transport",
+              "note": "Textile and engineering units",
+              "distanceKm": 17.6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-t4",
+              "name": "Udhna–Pandesara industrial",
+              "kind": "transport",
+              "note": "Ring Road factory hops",
+              "distanceKm": 12.3,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "surat-h1",
+              "name": "Courtyard by Marriott Surat",
+              "kind": "lodging",
+              "note": "Athwa Lines — diamond visitors",
+              "distanceKm": 6.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-h2",
+              "name": "Lords Plaza, Ring Road",
+              "kind": "lodging",
+              "note": "Near NH48 and Varachha approach",
+              "distanceKm": 10.9,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-h3",
+              "name": "Fairfield by Marriott, Vesu",
+              "kind": "lodging",
+              "note": "VIP Road corporate stays",
+              "distanceKm": 14.7,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "surat-r1",
+              "name": "Kansar Gujarati Thali",
+              "kind": "food_and_drink",
+              "note": "Athwalines — group lunches",
+              "distanceKm": 6.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-r2",
+              "name": "Sasumaa Gujarati Dining",
+              "kind": "food_and_drink",
+              "note": "Ghod Dod Road",
+              "distanceKm": 7.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "surat-r3",
+              "name": "Jalaram Khichdi & Kathiyawadi",
+              "kind": "food_and_drink",
+              "note": "Athwa post-meeting meals",
+              "distanceKm": 6.9,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "boisar": {
+      "lead": "Palghar–Boisar MIDC belt, highway stays, and plant visits — last Maharashtra stop before Gujarat.",
+      "sections": [
+        {
+          "slug": "midc",
+          "label": "MIDC & industry",
+          "icon": "train",
+          "panelTitle": "MIDC & industrial estates near Boisar HSR",
+          "places": [
+            {
+              "slug": "boisar-m1",
+              "name": "Boisar MIDC Phase I & II",
+              "kind": "industry",
+              "note": "Welspun, auto-ancillary, packaging units",
+              "distanceKm": 5.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-m2",
+              "name": "Tarapur MIDC (deep belt)",
+              "kind": "industry",
+              "note": "Aarti Industries, chemical & steel suppliers",
+              "distanceKm": 21.4,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-m3",
+              "name": "Palghar industrial area",
+              "kind": "industry",
+              "note": "Logistics and light engineering",
+              "distanceKm": 15.6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-m4",
+              "name": "Indo Arya Logistics Park",
+              "kind": "industry",
+              "note": "Warehouse and trailer parking runs",
+              "distanceKm": 8.9,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "boisar-t1",
+              "name": "NH48 Mumbai–Vapi pickup points",
+              "kind": "transport",
+              "note": "Dahanu / Charoti naka hops",
+              "distanceKm": 4.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-t2",
+              "name": "Boisar railway station link",
+              "kind": "transport",
+              "note": "Interchange until HSR opens",
+              "distanceKm": 3.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-t3",
+              "name": "Vangaon coastal industries",
+              "kind": "transport",
+              "note": "Same-day Tarapur + Boisar loop",
+              "distanceKm": 18.2,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "boisar-h1",
+              "name": "Hotel Panchvati, Boisar",
+              "kind": "lodging",
+              "note": "Highway halt before Gujarat leg",
+              "distanceKm": 4.1,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-h2",
+              "name": "MIDC contractor lodges",
+              "kind": "lodging",
+              "note": "Boisar industrial area",
+              "distanceKm": 6.4,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-h3",
+              "name": "Dahanu beach highway stays",
+              "kind": "lodging",
+              "note": "Weekend stopover on NH48",
+              "distanceKm": 22,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "boisar-r1",
+              "name": "Gurukripa Pure Veg, NH48",
+              "kind": "food_and_drink",
+              "note": "Truck-stop thali and snacks",
+              "distanceKm": 3.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-r2",
+              "name": "Pooja Family Restaurant",
+              "kind": "food_and_drink",
+              "note": "Boisar town — Marathi / Gujarati",
+              "distanceKm": 4.6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "boisar-r3",
+              "name": "Highway dhaba cluster",
+              "kind": "food_and_drink",
+              "note": "Charoti naka",
+              "distanceKm": 7.2,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "ahmedabad": {
+      "lead": "SG Highway business belt, airport links, and Old City dining around the HSR stop.",
+      "sections": [
+        {
+          "slug": "ahmedabad-biz",
+          "label": "Business & textile",
+          "icon": "compass",
+          "panelTitle": "SG Highway, GIFT City & textile belt",
+          "places": [
+            {
+              "slug": "amd-b1",
+              "name": "GIFT City, Gandhinagar",
+              "kind": "commerce",
+              "note": "IFSC and fintech campus visits",
+              "distanceKm": 27.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-b2",
+              "name": "SG Highway — Prahlad Nagar",
+              "kind": "commerce",
+              "note": "Corporate parks and consulates",
+              "distanceKm": 8.6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-b3",
+              "name": "Naroda / Odhav textile belt",
+              "kind": "commerce",
+              "note": "Mill and processing units",
+              "distanceKm": 11.9,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-b4",
+              "name": "Sanand auto hub",
+              "kind": "commerce",
+              "note": "OEM and supplier visits",
+              "distanceKm": 24.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "amd-t1",
+              "name": "Sardar Vallabhbhai Patel Airport (AMD)",
+              "kind": "transport",
+              "note": "SVP Airport — Hansol",
+              "distanceKm": 12.4,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-t2",
+              "name": "Sabarmati Ashram & riverfront",
+              "kind": "transport",
+              "note": "Half-day city circuit",
+              "distanceKm": 9.7,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-t3",
+              "name": "Gandhinagar Secretariat belt",
+              "kind": "transport",
+              "note": "Government visit adjoining runs",
+              "distanceKm": 26.3,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "amd-h1",
+              "name": "Hyatt Centric, SG Highway",
+              "kind": "lodging",
+              "note": "Conference stays",
+              "distanceKm": 8.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-h2",
+              "name": "House of MG (Old City)",
+              "kind": "lodging",
+              "note": "Heritage weekend",
+              "distanceKm": 10.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-h3",
+              "name": "Gandhinagar capital hotels",
+              "kind": "lodging",
+              "note": "Adjacent to GIFT visits",
+              "distanceKm": 28,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "amd-r1",
+              "name": "Agashiye — House of MG",
+              "kind": "food_and_drink",
+              "note": "Gujarati thali, Old City",
+              "distanceKm": 10.6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-r2",
+              "name": "Manek Chowk night market",
+              "kind": "food_and_drink",
+              "note": "Street food after meetings",
+              "distanceKm": 11.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "amd-r3",
+              "name": "Vishalla, Vasna",
+              "kind": "food_and_drink",
+              "note": "Rustic Gujarati dining",
+              "distanceKm": 13.8,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "bilimora": {
+      "lead": "Gandevi–Bilimora region on the Surat–Bilimora commissioning stretch.",
+      "sections": [
+        {
+          "slug": "coastal",
+          "label": "Coastal & local",
+          "icon": "pin",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bil-c1",
+              "name": "Gandevi town market",
+              "kind": "landmark",
+              "note": "Valsad district local hops",
+              "distanceKm": 6.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bil-c2",
+              "name": "Amboli ghat trading posts",
+              "kind": "landmark",
+              "note": "Agricultural belt day trips",
+              "distanceKm": 14,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bil-c3",
+              "name": "Vansda chikoo belt",
+              "kind": "landmark",
+              "note": "Seasonal orchard visits",
+              "distanceKm": 22,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bil-t1",
+              "name": "Surat ↔ Bilimora corridor",
+              "kind": "transport",
+              "note": "OHE stretch context",
+              "distanceKm": 52,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bil-t2",
+              "name": "Valsad city link",
+              "kind": "transport",
+              "note": "NH48 interchange",
+              "distanceKm": 18.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bil-h1",
+              "name": "Highway lodges, Chikhli",
+              "kind": "lodging",
+              "note": "NH48 night halt",
+              "distanceKm": 8.3,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bil-h2",
+              "name": "Bilimora town lodges",
+              "kind": "lodging",
+              "note": "Railway side stays",
+              "distanceKm": 4,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bil-r1",
+              "name": "Shreeji Dining, Bilimora",
+              "kind": "food_and_drink",
+              "note": "Family Gujarati meals",
+              "distanceKm": 3.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bil-r2",
+              "name": "NH48 dhaba row",
+              "kind": "food_and_drink",
+              "note": "South Gujarat highway",
+              "distanceKm": 5.2,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "mumbai-bkc": {
+      "lead": "BKC underground terminus — South Mumbai, corporate parks, and airport access.",
+      "sections": [
+        {
+          "slug": "bkc",
+          "label": "BKC & South Mumbai",
+          "icon": "train",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bkc-b1",
+              "name": "Bandra Kurla Complex",
+              "kind": "commerce",
+              "note": "Banking and legal district",
+              "distanceKm": 2.1,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bkc-b2",
+              "name": "Nariman Point",
+              "kind": "commerce",
+              "note": "South Mumbai corporate",
+              "distanceKm": 7.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bkc-b3",
+              "name": "Lower Parel mill district",
+              "kind": "commerce",
+              "note": "Media and startups",
+              "distanceKm": 5.4,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bkc-t1",
+              "name": "CSMIA T2 airport",
+              "kind": "transport",
+              "note": "Western Express / BKC link",
+              "distanceKm": 11.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bkc-t2",
+              "name": "Navi Mumbai MIDC",
+              "kind": "transport",
+              "note": "Airoli / Turbhe plants",
+              "distanceKm": 19,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bkc-h1",
+              "name": "Trident, BKC",
+              "kind": "lodging",
+              "note": "Walk-in business stays",
+              "distanceKm": 1.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bkc-h2",
+              "name": "The Taj Mahal Palace, Colaba",
+              "kind": "lodging",
+              "note": "South Mumbai heritage",
+              "distanceKm": 8.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bkc-r1",
+              "name": "Persian Darbar, BKC",
+              "kind": "food_and_drink",
+              "note": "Lunch meetings",
+              "distanceKm": 1.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bkc-r2",
+              "name": "Britannia & Co., Ballard Estate",
+              "kind": "food_and_drink",
+              "note": "Parsi classics",
+              "distanceKm": 6.2,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "thane": {
+      "lead": "Thane depot line — Ghodbunder Road IT belt and Eastern Express links.",
+      "sections": [
+        {
+          "slug": "thane-local",
+          "label": "Thane belt",
+          "icon": "pin",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "thn-l1",
+              "name": "Hiranandani Estate, Powai link",
+              "kind": "industry",
+              "note": "IT and pharma offices",
+              "distanceKm": 12,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "thn-l2",
+              "name": "Wagle Estate MIDC",
+              "kind": "industry",
+              "note": "Light engineering visits",
+              "distanceKm": 5.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "thn-l3",
+              "name": "Kalwa industrial belt",
+              "kind": "industry",
+              "note": "Chemical ancillaries",
+              "distanceKm": 7.8,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "thn-t1",
+              "name": "Eastern Express Highway",
+              "kind": "transport",
+              "note": "Mumbai / Kalyan corridor",
+              "distanceKm": 3.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "thn-t2",
+              "name": "Thane station interchange",
+              "kind": "transport",
+              "note": "Central Railway today",
+              "distanceKm": 2,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "thn-h1",
+              "name": "Viviana mall belt hotels",
+              "kind": "lodging",
+              "note": "Ghodbunder Road",
+              "distanceKm": 6.1,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "thn-h2",
+              "name": "Hiranandani Meadows stays",
+              "kind": "lodging",
+              "note": "Business traveller default",
+              "distanceKm": 9.4,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "thn-r1",
+              "name": "Paakashala, Thane West",
+              "kind": "food_and_drink",
+              "note": "Gujarati thali",
+              "distanceKm": 4.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "thn-r2",
+              "name": "Barista / Highway near Ghodbunder",
+              "kind": "food_and_drink",
+              "note": "Quick meetings",
+              "distanceKm": 5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "virar": {
+      "lead": "Vasai–Virar corridor — MIDC access and Western line interchange.",
+      "sections": [
+        {
+          "slug": "virar-local",
+          "label": "Vasai–Virar",
+          "icon": "pin",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vir-l1",
+              "name": "Vasai MIDC",
+              "kind": "industry",
+              "note": "Jindal, logistics parks",
+              "distanceKm": 8.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vir-l2",
+              "name": "Naigaon industrial belt",
+              "kind": "industry",
+              "note": "Warehousing and 3PL",
+              "distanceKm": 6.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vir-l3",
+              "name": "Arnala beach belt",
+              "kind": "industry",
+              "note": "Weekend coastal hop",
+              "distanceKm": 16,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vir-t1",
+              "name": "Virar railway station",
+              "kind": "transport",
+              "note": "Western Railway today",
+              "distanceKm": 3,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vir-t2",
+              "name": "NH48 Boisar direction",
+              "kind": "transport",
+              "note": "Gujarat-bound pickup",
+              "distanceKm": 14,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vir-h1",
+              "name": "Highway lodges, Nalasopara",
+              "kind": "lodging",
+              "note": "NH48 side",
+              "distanceKm": 7.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vir-h2",
+              "name": "Virar town hotels",
+              "kind": "lodging",
+              "note": "Local business stays",
+              "distanceKm": 4.2,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vir-r1",
+              "name": "Shree Swami Samarth, Virar",
+              "kind": "food_and_drink",
+              "note": "Family vegetarian",
+              "distanceKm": 3.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vir-r2",
+              "name": "Vasai highway dhabas",
+              "kind": "food_and_drink",
+              "note": "Evening meals",
+              "distanceKm": 6,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "vapi": {
+      "lead": "Vapi GIDC and Silvassa UT — border industry day trips.",
+      "sections": [
+        {
+          "slug": "vapi-gidc",
+          "label": "Vapi GIDC",
+          "icon": "train",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vap-g1",
+              "name": "Vapi GIDC Phase I–III",
+              "kind": "industry",
+              "note": "Pharma, paper, chemicals",
+              "distanceKm": 4.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vap-g2",
+              "name": "Silvassa industrial UT",
+              "kind": "industry",
+              "note": "Tax-free unit tours",
+              "distanceKm": 12,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vap-g3",
+              "name": "Dadra plastics cluster",
+              "kind": "industry",
+              "note": "Processing and moulding",
+              "distanceKm": 9.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vap-t1",
+              "name": "NH48 border corridor",
+              "kind": "transport",
+              "note": "Mumbai–Surat axis",
+              "distanceKm": 2.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vap-t2",
+              "name": "Daman beach circuit",
+              "kind": "transport",
+              "note": "Coastal add-on",
+              "distanceKm": 18,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vap-h1",
+              "name": "Hotel Glam Imperial",
+              "kind": "lodging",
+              "note": "GIDC guest circuit",
+              "distanceKm": 3.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vap-h2",
+              "name": "Silvassa resort stays",
+              "kind": "lodging",
+              "note": "UT overnight",
+              "distanceKm": 13.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vap-r1",
+              "name": "Rajasthani Dhaba, Vapi",
+              "kind": "food_and_drink",
+              "note": "Highway thali",
+              "distanceKm": 2.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vap-r2",
+              "name": "Daman beach shacks",
+              "kind": "food_and_drink",
+              "note": "Seafood weekend",
+              "distanceKm": 19,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "bharuch": {
+      "lead": "Narmada belt, Dahej PCPIR, and Ankleshwar chemical hub.",
+      "sections": [
+        {
+          "slug": "bharuch-industry",
+          "label": "Industry & Dahej",
+          "icon": "train",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bhr-i1",
+              "name": "Dahej PCPIR",
+              "kind": "industry",
+              "note": "Petrochemical zone — long day",
+              "distanceKm": 42,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bhr-i2",
+              "name": "Ankleshwar GIDC",
+              "kind": "industry",
+              "note": "API and specialty chemicals",
+              "distanceKm": 18.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bhr-i3",
+              "name": "Jambusar agro belt",
+              "kind": "industry",
+              "note": "Trading and warehousing",
+              "distanceKm": 24,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bhr-t1",
+              "name": "Bharuch city ↔ industrial belt",
+              "kind": "transport",
+              "note": "Plant shift runs",
+              "distanceKm": 6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bhr-t2",
+              "name": "Golden Bridge area",
+              "kind": "transport",
+              "note": "Narmada crossing",
+              "distanceKm": 4.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bhr-h1",
+              "name": "Ankleshwar GIDC hotels",
+              "kind": "lodging",
+              "note": "Audit and contractor",
+              "distanceKm": 17,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bhr-h2",
+              "name": "Bharuch NH8 lodges",
+              "kind": "lodging",
+              "note": "Highway circuit",
+              "distanceKm": 5.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "bhr-r1",
+              "name": "Tapti riverfront dining",
+              "kind": "food_and_drink",
+              "note": "Bharuch old city",
+              "distanceKm": 5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "bhr-r2",
+              "name": "Gujarat dhaba, NH48",
+              "kind": "food_and_drink",
+              "note": "Valsad–Bharuch stretch",
+              "distanceKm": 3.2,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "vadodara": {
+      "lead": "Sayajigunj, Makarpura GIDC, and MS University belt.",
+      "sections": [
+        {
+          "slug": "vadodara-city",
+          "label": "Baroda business",
+          "icon": "compass",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vdr-b1",
+              "name": "Makarpura GIDC",
+              "kind": "industry",
+              "note": "Engineering and pharma",
+              "distanceKm": 6.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vdr-b2",
+              "name": "Alembic / Gotri corporate",
+              "kind": "industry",
+              "note": "Pharma HQ visits",
+              "distanceKm": 8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vdr-b3",
+              "name": "Halol industrial (nearby)",
+              "kind": "industry",
+              "note": "Auto and FMCG suppliers",
+              "distanceKm": 22,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vdr-t1",
+              "name": "Vadodara Airport (BDQ)",
+              "kind": "transport",
+              "note": "Harni",
+              "distanceKm": 9.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vdr-t2",
+              "name": "Sayajigunj station area",
+              "kind": "transport",
+              "note": "Intercity rail today",
+              "distanceKm": 3,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vdr-h1",
+              "name": "Welcomhotel by ITC, Alkapuri",
+              "kind": "lodging",
+              "note": "Sayajigunj business",
+              "distanceKm": 4.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vdr-h2",
+              "name": "GenX Vadodara",
+              "kind": "lodging",
+              "note": "Makarpura side",
+              "distanceKm": 7,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "vdr-r1",
+              "name": "Mandap, Race Course",
+              "kind": "food_and_drink",
+              "note": "Gujarati thali",
+              "distanceKm": 4,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "vdr-r2",
+              "name": "Kalyan Restaurant",
+              "kind": "food_and_drink",
+              "note": "Farsan and fast lunch",
+              "distanceKm": 3.8,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "anand-nadiad": {
+      "lead": "Dairy cooperatives, institutes, and NH48 between Vadodara and Ahmedabad.",
+      "sections": [
+        {
+          "slug": "anand-belt",
+          "label": "Dairy & institutes",
+          "icon": "pin",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "an-b1",
+              "name": "Amul Dairy, Anand",
+              "kind": "industry",
+              "note": "Cooperative campus tours",
+              "distanceKm": 5.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "an-b2",
+              "name": "NDDB headquarters",
+              "kind": "industry",
+              "note": "Sector policy visits",
+              "distanceKm": 6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "an-b3",
+              "name": "Dharmsinh Desai University belt",
+              "kind": "industry",
+              "note": "Nadiad education hub",
+              "distanceKm": 9,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "an-t1",
+              "name": "NH48 Vadodara–Ahmedabad",
+              "kind": "transport",
+              "note": "Express hops",
+              "distanceKm": 2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "an-t2",
+              "name": "Anand railway junction",
+              "kind": "transport",
+              "note": "Western Railway",
+              "distanceKm": 4.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "an-h1",
+              "name": "Red Avenue, Anand",
+              "kind": "lodging",
+              "note": "Milk belt visitors",
+              "distanceKm": 5.2,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "an-h2",
+              "name": "Nadiad town lodges",
+              "kind": "lodging",
+              "note": "Institute visits",
+              "distanceKm": 10,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "an-r1",
+              "name": "Amul Parlour, Anand",
+              "kind": "food_and_drink",
+              "note": "Quick cooperative stop",
+              "distanceKm": 5.8,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "an-r2",
+              "name": "Gordhan thali, Nadiad",
+              "kind": "food_and_drink",
+              "note": "Local vegetarian",
+              "distanceKm": 9.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    },
+    "sabarmati": {
+      "lead": "Northern terminus — Motera, Chandkheda, and Ashram riverfront.",
+      "sections": [
+        {
+          "slug": "sabarmati-local",
+          "label": "Sabarmati & north Amd",
+          "icon": "pin",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "sab-l1",
+              "name": "Sabarmati Ashram",
+              "kind": "landmark",
+              "note": "Gandhi heritage circuit",
+              "distanceKm": 8.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "sab-l2",
+              "name": "Narendra Modi Stadium, Motera",
+              "kind": "landmark",
+              "note": "Event day traffic planning",
+              "distanceKm": 6,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "sab-l3",
+              "name": "Chandkheda wholesale market",
+              "kind": "landmark",
+              "note": "Trading belt mornings",
+              "distanceKm": 5.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "cabs",
+          "label": "Cabs",
+          "icon": "cab",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "sab-t1",
+              "name": "AMD airport via SP Ring Road",
+              "kind": "transport",
+              "note": "North Ahmedabad link",
+              "distanceKm": 14,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "sab-t2",
+              "name": "Sabarmati Riverfront",
+              "kind": "transport",
+              "note": "Riverfront drive",
+              "distanceKm": 7,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "stays",
+          "label": "Stays",
+          "icon": "hotel",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "sab-h1",
+              "name": "Hyatt Regency, Ashram Road",
+              "kind": "lodging",
+              "note": "Riverfront business",
+              "distanceKm": 9,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "sab-h2",
+              "name": "Motera belt hotels",
+              "kind": "lodging",
+              "note": "Stadium and north city",
+              "distanceKm": 5.8,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        },
+        {
+          "slug": "dining",
+          "label": "Dining",
+          "icon": "restaurant",
+          "panelTitle": "",
+          "places": [
+            {
+              "slug": "sab-r1",
+              "name": "Riverfront cafés",
+              "kind": "food_and_drink",
+              "note": "Evening meetings",
+              "distanceKm": 7.5,
+              "tags": "representative-poi,illustrative-distance"
+            },
+            {
+              "slug": "sab-r2",
+              "name": "Vishala (via Vasna)",
+              "kind": "food_and_drink",
+              "note": "Traditional Gujarati",
+              "distanceKm": 13.5,
+              "tags": "representative-poi,illustrative-distance"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

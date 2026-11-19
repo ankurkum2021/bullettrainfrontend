@@ -1,0 +1,21 @@
+{
+  "name": "bullettrainfrontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "places:export-realistic": "npx tsx scripts/export-explore-to-places-seed.ts",
+    "sync-progress-images": "npx tsx scripts/sync-progress-images.ts"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.0",
+    "@types/react": "19.1.13",
+    "typescript": "5.9.2"
+  }
+}

@@ -1,0 +1,349 @@
+/* Navy + white only — primary #0a1a30, light #1c3558.
+   Declared at root so the selectors keep the palette outside .cex (they sit in the hero). */
+:root {
+  --cex-navy: var(--navy-850, #0a1a30);
+  --cex-navy-light: var(--navy-600, #1c3558);
+  --cex-white: #ffffff;
+}
+
+.cex {
+  background: var(--cex-navy);
+  color: var(--cex-white);
+  padding: 100px 0 110px;
+  border-block: 1px solid color-mix(in srgb, var(--cex-white) 12%, transparent);
+}
+
+.cex-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.cex-kicker {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin: 0 0 12px;
+}
+
+.cex-head h2 {
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin: 0 0 14px;
+  max-width: 18ch;
+}
+
+.cex-intro {
+  margin: 0;
+  max-width: 52ch;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+  opacity: 0.88;
+}
+
+.cex-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 20px;
+  padding: 22px 20px;
+  background: var(--cex-navy);
+  color: var(--cex-white);
+  border: 1px solid color-mix(in srgb, var(--cex-white) 16%, transparent);
+  border-radius: 20px;
+  box-shadow: 0 20px 50px -24px rgba(10, 26, 48, 0.75);
+}
+
+.cex-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.cex-select-wrap {
+  position: relative;
+}
+
+.cex-select-wrap::after {
+  content: "";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--cex-white);
+  border-bottom: 2px solid var(--cex-white);
+  transform: translateY(-65%) rotate(45deg);
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.cex-select {
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 14px 44px 14px 16px;
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, var(--cex-white) 25%, transparent);
+  background: var(--cex-navy-light);
+  color: var(--cex-white);
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.cex-select:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--cex-white) 40%, transparent);
+}
+
+.cex-select:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.cex-select option {
+  background: var(--cex-navy);
+  color: var(--cex-white);
+}
+
+.cex-section-title {
+  margin: 0 0 24px;
+  font-size: clamp(26px, 3.6vw, 40px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  max-width: 20ch;
+}
+
+.cex-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.cex-stat {
+  padding: 20px 20px 22px;
+  border-radius: 18px;
+  background: var(--cex-navy-light);
+  border: 1px solid color-mix(in srgb, var(--cex-white) 14%, transparent);
+  animation: cex-pop 0.45s ease;
+}
+
+@keyframes cex-pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+.cex-stat-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 8px;
+}
+
+.cex-stat-value {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.cex-stat-value--sm {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.cex-stat-meta {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.cex-detail-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--cex-white);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.cex-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.cex-detail-col {
+  background: var(--cex-navy-light);
+  border: 1px solid color-mix(in srgb, var(--cex-white) 14%, transparent);
+  border-radius: 24px;
+  padding: 26px 24px 28px;
+}
+
+.cex-detail-context {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.cex-detail-title {
+  margin: 0 0 12px;
+  font-size: clamp(20px, 2.5vw, 26px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.cex-detail-body {
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 1.65;
+  font-weight: 300;
+  opacity: 0.92;
+}
+
+.cex-detail-sub {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cex-detail-note {
+  margin: 0 0 20px;
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+.cex-milestones {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 300;
+  opacity: 0.92;
+}
+
+.cex-milestones li + li {
+  margin-top: 8px;
+}
+
+.cex-biz-group + .cex-biz-group {
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 1px solid color-mix(in srgb, var(--cex-white) 12%, transparent);
+}
+
+.cex-biz-heading-link {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  color: var(--cex-white);
+  text-decoration: none;
+}
+
+.cex-biz-heading {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+
+.cex-biz-heading-cta {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.7;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.cex-biz-heading-link:hover .cex-biz-heading-cta {
+  opacity: 1;
+}
+
+.cex-biz-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cex-biz-item {
+  display: block;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--cex-navy);
+  border: 1px solid color-mix(in srgb, var(--cex-white) 10%, transparent);
+  color: var(--cex-white);
+  text-decoration: none;
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+
+.cex-biz-item:hover {
+  border-color: color-mix(in srgb, var(--cex-white) 40%, transparent);
+  transform: translateX(2px);
+}
+
+.cex-biz-name {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.cex-biz-note {
+  display: block;
+  font-size: 12px;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .cex-controls {
+    grid-template-columns: 1fr;
+  }
+  .cex-stats {
+    grid-template-columns: 1fr;
+  }
+  .cex-detail {
+    grid-template-columns: 1fr;
+  }
+  .cex-inner {
+    padding: 0 20px;
+  }
+}
