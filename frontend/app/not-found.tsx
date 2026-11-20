@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BtsIcon } from "@/components/icons/BtsIcon";
 import { PageShell } from "@/components/PageShell";
-import { SeoSiteNav } from "@/components/SeoSiteNav";
-
 export const metadata: Metadata = {
   title: "Page not found",
   description:
@@ -23,7 +21,6 @@ export default function NotFound() {
           That URL is not part of this site. Station guides live on a single{" "}
           <Link href="/stations">stations page</Link> (use in-page anchors, not separate city URLs).
         </p>
-        <SeoSiteNav />
       </article>
     </PageShell>
   );
