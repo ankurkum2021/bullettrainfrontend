@@ -595,6 +595,24 @@ html{scroll-behavior:smooth;scroll-padding-top:72px}
     max-width:100%;
     box-sizing:border-box;
   }
+  .bts .content-page.wrap:not(.content-page--explore) > .breadcrumbs,
+  .bts .content-page.wrap:not(.content-page--explore) > .content-hero,
+  .bts .content-page.wrap:not(.content-page--explore) > .content-lead,
+  .bts .content-page.wrap:not(.content-page--explore) > .updates-list,
+  .bts .content-page.wrap:not(.content-page--explore) > .update-article-body,
+  .bts .content-page.wrap:not(.content-page--explore) > .update-source,
+  .bts .content-page.wrap:not(.content-page--explore) > .prose-block,
+  .bts .content-page.wrap:not(.content-page--explore) > .faq-section,
+  .bts .content-page.wrap:not(.content-page--explore) > .contact-block,
+  .bts .content-page.wrap:not(.content-page--explore) > .stations-directory,
+  .bts .content-page.wrap:not(.content-page--explore) > .stations-seo-archive,
+  .bts .content-page.wrap:not(.content-page--explore) > .stations-back,
+  .bts .content-page.wrap:not(.content-page--explore) > .station-toc{
+    margin-inline:var(--bts-blue-card-margin);
+    width:auto;
+    max-width:100%;
+    box-sizing:border-box;
+  }
 }
 @media(max-width:768px){
   .bts{background-attachment:scroll}
@@ -653,6 +671,18 @@ html{scroll-behavior:smooth;scroll-padding-top:72px}
   .bts .nearby-hub{padding:var(--bts-card-pad);border-radius:var(--bts-card-radius)}
   .bts .up{padding:var(--bts-card-pad);border-radius:var(--bts-card-radius)}
   .bts .update-card{padding:var(--bts-card-pad);border-radius:var(--bts-card-radius)}
+  .bts .content-page.wrap:not(.content-page--explore) .update-card{
+    width:auto;
+    max-width:100%;
+    box-sizing:border-box;
+  }
+  .bts .content-page.wrap .update-article-body{
+    padding:var(--bts-card-pad);
+    border-radius:var(--bts-card-radius);
+    border:1px solid var(--line);
+    background:var(--panel);
+    box-shadow:var(--shadow);
+  }
   .bts .station-panel{padding:var(--bts-card-pad);border-radius:var(--bts-card-radius)}
   .bts .explore-hero-panel{padding:var(--bts-card-pad);border-radius:var(--bts-card-radius)}
   .bts .route h2{font-size:clamp(22px,6vw,32px);line-height:1.12}
