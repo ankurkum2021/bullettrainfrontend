@@ -715,7 +715,9 @@ html{scroll-behavior:smooth;scroll-padding-top:72px}
     display:flex;
     flex-direction:column;
     gap:var(--bts-card-gap);
-    width:100%;
+    margin-inline:var(--bts-blue-card-margin);
+    width:auto;
+    max-width:100%;
     box-sizing:border-box;
   }
   .bts .extra .up{
