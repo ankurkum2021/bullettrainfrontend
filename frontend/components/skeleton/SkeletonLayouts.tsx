@@ -55,12 +55,15 @@ export function HomeExplorerSkeletonBody() {
         <div className="wrap">
           <SkeletonBar width="min(32rem, 92%)" height="2.75rem" />
           <SkeletonBar width="min(28rem, 85%)" height="1.125rem" />
-          <div className="picker bts-skeleton-picker">
-            <Skeleton className="bts-skeleton-field" />
-            <Skeleton className="bts-skeleton-field" />
-          </div>
         </div>
       </header>
+      <section className="picker-section wrap">
+        <SkeletonBar width="min(22rem, 90%)" height="1.25rem" />
+        <div className="picker bts-skeleton-picker">
+          <Skeleton className="bts-skeleton-field" />
+          <Skeleton className="bts-skeleton-field" />
+        </div>
+      </section>
       <section className="results wrap">
         <div className="route route--explorer bts-skeleton-route">
           <SkeletonBar width="70%" height="2rem" />

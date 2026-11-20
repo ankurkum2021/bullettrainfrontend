@@ -11,6 +11,7 @@ import type { ExploreCorridor } from "@/data/explore";
 import { stationBySlug } from "@/data/stations";
 import { stationBulletTrainName } from "@/lib/station-label";
 import { BtsIcon } from "@/components/icons/BtsIcon";
+import { HomeHeroSummary } from "@/components/home/HomeHeroSummary";
 import { BtsShell } from "@/components/layout/BtsShell";
 import { SITE_TAGLINE } from "@/lib/site";
 import type { StationExploreProfile } from "@/data/station-explore";
@@ -94,26 +95,34 @@ export function HomePage({
               <BtsIcon name="compass" size={22} />
               <span>{SITE_TAGLINE}</span>
             </p>
-            <div className="picker">
-              <PickerDropdown
-                label="Corridor"
-                value={corridorId}
-                options={corridorOptions}
-                onChange={onCorridorChange}
-                labelIcon={<BtsIcon name="route" size={14} />}
-                icon={<BtsIcon name="train" size={16} />}
-              />
-              <PickerDropdown
-                label="Station"
-                value={station.slug}
-                options={stationOptions}
-                onChange={onStationPick}
-                labelIcon={<BtsIcon name="pin" size={14} />}
-                icon={<BtsIcon name="pin" size={16} />}
-              />
-            </div>
+            <HomeHeroSummary />
           </div>
         </header>
+
+        <section className="picker-section wrap" aria-labelledby="picker-heading">
+          <h2 id="picker-heading" className="picker-heading with-ico">
+            <BtsIcon name="route" size={18} />
+            Start by selecting the corridor and station
+          </h2>
+          <div className="picker">
+            <PickerDropdown
+              label="Corridor"
+              value={corridorId}
+              options={corridorOptions}
+              onChange={onCorridorChange}
+              labelIcon={<BtsIcon name="route" size={14} />}
+              icon={<BtsIcon name="train" size={16} />}
+            />
+            <PickerDropdown
+              label="Station"
+              value={station.slug}
+              options={stationOptions}
+              onChange={onStationPick}
+              labelIcon={<BtsIcon name="pin" size={14} />}
+              icon={<BtsIcon name="pin" size={16} />}
+            />
+          </div>
+        </section>
 
         <section className="results wrap" id="development" aria-labelledby="route-heading">
           <div className="route route--explorer">
