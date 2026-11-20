@@ -2,7 +2,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/site";
 import {
   loadCorridorUpdates,
   updateDetailPath,
-  updateTeaser,
+  updateMetaDescription,
 } from "@/lib/updates";
 
 export const revalidate = 300;
@@ -26,7 +26,7 @@ export async function GET() {
       <link>${link}</link>
       <guid isPermaLink="true">${link}</guid>
       <pubDate>${new Date(item.date).toUTCString()}</pubDate>
-      <description>${escapeXml(updateTeaser(item))}</description>
+      <description>${escapeXml(updateMetaDescription(item))}</description>
     </item>`;
     })
     .join("\n");

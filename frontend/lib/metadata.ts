@@ -8,6 +8,13 @@ const DEFAULT_OG_IMAGE = {
   alt: `${SITE_NAME} logo`,
 } as const;
 
+type OgImageInput = {
+  url: string;
+  width?: number;
+  height?: number;
+  alt?: string;
+};
+
 type PageMetaInput = {
   title: string;
   description: string;
@@ -16,7 +23,19 @@ type PageMetaInput = {
   noIndex?: boolean;
   /** Adds /feed.xml discovery for news pages. */
   rssFeed?: boolean;
+  ogImage?: OgImageInput;
 };
+
+function resolveOgImage(ogImage?: OgImageInput) {
+  if (!ogImage?.url) return DEFAULT_OG_IMAGE;
+  const absolute = ogImage.url.startsWith("http") ? ogImage.url : `${SITE_URL}${ogImage.url}`;
+  return {
+    url: absolute,
+    width: ogImage.width ?? 1200,
+    height: ogImage.height ?? 630,
+    alt: ogImage.alt ?? SITE_NAME,
+  };
+}
 
 export function pageMetadata({
   title,
@@ -25,8 +44,10 @@ export function pageMetadata({
   keywords = [],
   noIndex = false,
   rssFeed = false,
+  ogImage,
 }: PageMetaInput): Metadata {
   const url = `${SITE_URL}${path}`;
+  const openGraphImage = resolveOgImage(ogImage);
   const titleField =
     path === "/" ? { absolute: title } : title;
   const ogTitle = path === "/" ? title : `${title} | ${SITE_NAME}`;
@@ -53,13 +74,13 @@ export function pageMetadata({
       siteName: SITE_NAME,
       title: ogTitle,
       description,
-      images: [DEFAULT_OG_IMAGE],
+      images: [openGraphImage],
     },
     twitter: {
       card: "summary_large_image",
       title: ogTitle,
       description,
-      images: [DEFAULT_OG_IMAGE.url],
+      images: [openGraphImage.url],
     },
     other: {
       "geo.region": "IN",

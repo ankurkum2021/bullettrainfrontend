@@ -11,14 +11,16 @@ import type { ExploreCorridor } from "@/data/explore";
 import { stationBySlug } from "@/data/stations";
 import { stationBulletTrainName } from "@/lib/station-label";
 import { BtsIcon } from "@/components/icons/BtsIcon";
-import { HomeHeroSummary } from "@/components/home/HomeHeroSummary";
+import { BulletHero } from "@/components/home/BulletHero";
+import { HomeHeroIntro } from "@/components/home/HomeHeroIntro";
 import { BtsShell } from "@/components/layout/BtsShell";
 import { SITE_TAGLINE } from "@/lib/site";
 import type { StationExploreProfile } from "@/data/station-explore";
+import { UpdateCardThumb } from "@/components/updates/UpdateCardThumb";
 import {
   formatUpdateDate,
+  updateBrief,
   updateDetailPath,
-  updateTeaser,
   type CorridorUpdate,
 } from "@/lib/updates";
 
@@ -85,21 +87,20 @@ export function HomePage({
 
   return (
     <BtsShell>
-        <header className="hero">
+        <header className="hero hero--full">
+          <div className="wrap hero-banner-shell">
+            <BulletHero />
+          </div>
           <div className="wrap">
-            <h1 className="bts-hero-title">
-              <span className="bts-hero-title-line">India&apos;s bullet train,</span>
-              <span className="bts-hero-title-accent">station by station</span>
-            </h1>
-            <p className="lead with-ico">
+            <p className="lead lead--below-hero with-ico">
               <BtsIcon name="compass" size={22} />
               <span>{SITE_TAGLINE}</span>
             </p>
-            <HomeHeroSummary />
+            <HomeHeroIntro />
           </div>
         </header>
 
-        <section className="picker-section wrap" aria-labelledby="picker-heading">
+        <section className="picker-section wrap" id="picker" aria-labelledby="picker-heading">
           <h2 id="picker-heading" className="picker-heading with-ico">
             <BtsIcon name="route" size={18} />
             Start by selecting the corridor and station
@@ -168,21 +169,22 @@ export function HomePage({
         <section className="extra wrap" id="updates">
           <h2 className="with-ico">
             <BtsIcon name="news" size={24} />
-            Daily corridor updates
+            Latest project updates
           </h2>
           <p className="lead-sect">
-            Curated from official NHSRCL, PIB, and tender sources —{" "}
+            Curated from official agencies, PIB, and tender sources —{" "}
             <Link href="/updates">full archive</Link>.
           </p>
           <div className="ups">
             {homeUpdates.map((item) => (
-              <Link key={item.id} href={updateDetailPath(item.id)} className="up">
+              <Link key={item.id} href={updateDetailPath(item.id)} className="up up--with-thumb">
+                <UpdateCardThumb item={item} sizes="(max-width: 640px) 100vw, 320px" />
                 <span className="with-ico">
                   <BtsIcon name="calendar" size={14} />
                   {formatUpdateDate(item.date)}
                 </span>
                 <h3>{item.title}</h3>
-                <p className="up-teaser">{updateTeaser(item)}</p>
+                <p className="up-brief">{updateBrief(item)}</p>
               </Link>
             ))}
           </div>

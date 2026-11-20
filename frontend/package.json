@@ -1,5 +1,5 @@
 {
-  "name": "bullettrainfrontend",
+  "name": "bullettrainstation-frontend",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -3,12 +3,13 @@ import { JsonLd } from "@/components/JsonLd";
 import { BtsIcon } from "@/components/icons/BtsIcon";
 import { BtsBreadcrumbs } from "@/components/layout/BtsBreadcrumbs";
 import { PageShell } from "@/components/PageShell";
+import { UpdateCardThumb } from "@/components/updates/UpdateCardThumb";
 import { UpdateSourceLine } from "@/components/updates/UpdateSourceLine";
 import {
   formatUpdateDate,
   loadCorridorUpdates,
   updateDetailPath,
-  updateTeaser,
+  updateBrief,
 } from "@/lib/updates";
 
 export const revalidate = 300;
@@ -68,7 +69,9 @@ export default async function UpdatesPage() {
 
         <ol className="updates-list">
           {updates.map((item) => (
-            <li key={item.id} id={item.id} className="update-card">
+            <li key={item.id} id={item.id} className="update-card update-card--with-thumb">
+              <UpdateCardThumb item={item} sizes="(max-width: 640px) 88px, 140px" />
+              <div className="update-card__body">
               <time dateTime={item.date} className="update-date with-ico">
                 <BtsIcon name="calendar" size={14} />
                 {formatUpdateDate(item.date)}
@@ -77,12 +80,13 @@ export default async function UpdatesPage() {
                 <BtsIcon name="news" size={18} />
                 <Link href={updateDetailPath(item.id)}>{item.title}</Link>
               </h2>
-              <p className="update-summary update-summary--teaser">{updateTeaser(item)}</p>
+              <p className="update-summary update-summary--brief">{updateBrief(item)}</p>
               <Link href={updateDetailPath(item.id)} className="update-read-more with-ico">
                 Read full update
                 <BtsIcon name="arrow" size={12} />
               </Link>
               <UpdateSourceLine sourceSite={item.sourceSite} sourceName={item.sourceName} />
+              </div>
             </li>
           ))}
         </ol>

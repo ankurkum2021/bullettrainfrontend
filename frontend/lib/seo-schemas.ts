@@ -132,14 +132,17 @@ export function sitePagesItemListSchema() {
   };
 }
 
-export function newsArticleSchema(article: {
-  id: string;
-  title: string;
-  summary: string;
-  date: string;
-  sourceUrl: string;
-  body?: string;
-}) {
+export function newsArticleSchema(
+  article: {
+    id: string;
+    title: string;
+    summary: string;
+    date: string;
+    sourceUrl: string;
+    body?: string;
+  },
+  imageUrl?: string,
+) {
   return {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -149,6 +152,12 @@ export function newsArticleSchema(article: {
     datePublished: article.date,
     url: `${SITE_URL}/updates/${article.id}`,
     mainEntityOfPage: `${SITE_URL}/updates/${article.id}`,
+    ...(imageUrl
+      ? {
+          image: [imageUrl],
+          thumbnailUrl: imageUrl,
+        }
+      : {}),
     isAccessibleForFree: true,
     inLanguage: "en-IN",
     publisher: organizationSchema(),
