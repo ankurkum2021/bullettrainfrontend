@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { SeoSiteNav } from "@/components/SeoSiteNav";
 import { BtsIcon } from "@/components/icons/BtsIcon";
 import { FOOTER_DISCLAIMER, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -32,8 +31,6 @@ export function BtsFooter() {
             <strong>{disclaimerLead}</strong> {disclaimerBody}
           </span>
         </div>
-
-        <SeoSiteNav className="foot-site-nav" omitHome />
 
         <p className="foot-copy">
           © {year}{" "}
